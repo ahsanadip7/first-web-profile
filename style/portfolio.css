@@ -1,0 +1,100 @@
+/* font family */
+
+.open-sans-normal{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+/* text color */
+.text-color{
+color: #FD6E0A;
+}
+
+
+/* nav style  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px 50px 226px ;
+    
+   
+}
+
+.nav-title{
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li {
+   list-style: none;
+   margin-right: 50px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.btn-customize{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #FD6E0A;
+    padding: 18px 30px;
+    border-radius: 5px;
+    border-color: #FD6E0A;
+   
+
+
+}
+
+ .secondery{
+    font-size: 45px;
+    font-weight: 400px;
+    color: #474747;
+}
+.primery{
+    font-weight: bold;
+    font-size: 85px;
+   padding: 0px;
+}
+.open-sans-normal > p {
+    font-size: 18px;
+}
+.btn-contact{
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: px;
+   
+
+}
+
+.theme{
+    height: 837px;
+    width: 1600px;
+    margin: 300px 789px 184px 226px;
+}
+.theme>p {
+    color: #474747;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.theme > button {
+    margin-right: 20px;
+}
