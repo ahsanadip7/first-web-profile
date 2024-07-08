@@ -53,6 +53,13 @@ nav>ul {
     color: #181818;
   }
 
+    /* paragraph font style */
+    .summery-p{
+      font-size: 16px;
+      margin-top: 9px;
+      margin-bottom: 41px;
+     color: #474747;
+    }
 
   /*  header-div */
   .child{
@@ -70,11 +77,7 @@ nav>ul {
     font-weight: bold;
     color: #181818;
   }
-  .child>p{
-     margin-top: 9px;
-     margin-bottom: 41px;
-    color: #474747;
-  }
+  
   .btn-contact{
     margin-left: 20px;
     background-color: white;
@@ -94,7 +97,7 @@ nav>ul {
   }
 
   .header{
-    
+    background-color: #FFF8F3;
     background-image: url(../developer.png), url(../header_bg.png);
     background-repeat: no-repeat;
     background-position:  left  , right bottom ;
@@ -103,23 +106,100 @@ nav>ul {
   /* main about */
   .parent-section{
     background-color: #FFF8F3;
-   margin-top: 123px;
-    margin-left: 230px;
-    margin-right: 230px;
+   margin : 123px;
+   margin-left: 230px;
+   margin-right: 230px;
+   border-radius: 10px;
     border: 0px solid ;
     padding: 131px 156px;
+  }
+  .about-me{
+    text-align: center;
   }
 
   .parent-main{
     background-color: white;
- padding: 5px;
+ padding: 15px;
     border: 1px solid ;
   align-items: center;
   }
+ 
+ 
   .personal-info{
     display: flex;
-  
+    justify-content: space-between;
   }
   .info{
+
+    justify-content: space-between;
     margin-right: 50px;
   }
+
+  .what-i-do {
+    line-height: 30px;
+    margin: 130px 345px;
+    text-align: center;
+  }
+  
+
+  .apps-summery{
+    margin: 50px 260px;
+    display: flex;
+   
+ 
+
+}
+.apps{
+  box-shadow: 0px 6px 50px 0px #000000;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin-left: 24px;
+ padding: 33px;
+  border: 1px solid white;
+}
+
+.summary-header{
+  text-align: center;
+}
+
+/* summary */
+.summary-header{
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 123px;
+}
+.summary-parent {
+
+ border-bottom: 0.7px solid;
+ border-color: #757575;
+ box-sizing: border-box;
+}
+.full-summary{
+  margin-left: 250px;
+  margin-right: 250px ;
+  margin-top: 160px;
+  display: flex;
+}
+
+.summery-1st{
+  margin-right: 71px;
+}
+.bold-primary{
+  font-weight: bold;
+  font-size: 30px;
+  color: #474747;
+}
+.bold-secondary{
+   font-weight: bold;
+   font-size: 25px;
+   color: #474747;
+}
+.semibold{
+  font-weight: 600;
+  font-size: 20px;
+color: #757575;
+}
+.pera{
+padding-top:78px ;
+
+}
