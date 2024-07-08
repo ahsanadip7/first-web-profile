@@ -94,7 +94,32 @@ nav>ul {
   }
 
   .header{
+    
     background-image: url(../developer.png), url(../header_bg.png);
     background-repeat: no-repeat;
     background-position:  left  , right bottom ;
+  }
+
+  /* main about */
+  .parent-section{
+    background-color: #FFF8F3;
+   margin-top: 123px;
+    margin-left: 230px;
+    margin-right: 230px;
+    border: 0px solid ;
+    padding: 131px 156px;
+  }
+
+  .parent-main{
+    background-color: white;
+ padding: 5px;
+    border: 1px solid ;
+  align-items: center;
+  }
+  .personal-info{
+    display: flex;
+  
+  }
+  .info{
+    margin-right: 50px;
   }
