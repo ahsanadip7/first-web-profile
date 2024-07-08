@@ -1,6 +1,6 @@
 /* font family */
 
-.open-sans-normal{
+.open-sans-normal {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -69,7 +69,7 @@ nav a {
     font-size: 85px;
    padding: 0px;
 }
-.open-sans-normal > p {
+.theme > p {
     font-size: 18px;
 }
 .btn-contact{
